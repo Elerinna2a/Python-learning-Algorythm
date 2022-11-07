@@ -23,15 +23,6 @@ faire une fonction qui decode le message caché
 liste_a = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r"
 ,"s","t","u","v","w","x","y","z"] # liste d'alphabet
 
-
-liste = list(liste_a[0]) ## prendre la premiere lettre de la liste alphabet
-
-liste_x = []
-
-def tableauX(liste_x):
-        for i in range(len(liste_a)):
-                liste_x.append(liste_a)                
-tableauX(liste_x)
         
         
         
