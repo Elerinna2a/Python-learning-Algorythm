@@ -5,11 +5,11 @@ Created on Mon Nov  7 19:07:53 2022
 @author: Antony
 """
 
-def palindrome(ch):
-    if len(ch) == 1:
+def palindrome(mot):
+    if len(mot) == 1:
         return print("c'est un palindrome")
-    if ch[0] == ch[-1]:
-        return palindrome(ch[1:len(ch)-1])
+    if mot[0] == mot[-1]:
+        return palindrome(mot[1:len(mot)-1])
     return print("ce n'est pas un palindrome")
 
 mot = input(" palindrome ? : ")
